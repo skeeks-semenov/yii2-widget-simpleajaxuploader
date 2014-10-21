@@ -8,7 +8,7 @@
  * @date 21.10.2014
  * @since 1.0.0
  */
-namespace skeeks\widget\simpleajaxloader;
+namespace skeeks\widget\simpleajaxuploader;
 
 use yii\web\AssetBundle;
 
@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
  */
 class Asset extends AssetBundle
 {
-    public $sourcePath = '@vendor/skeeks/yii2-widget-simpleajaxloader/assets';
+    public $sourcePath = '@vendor/skeeks/yii2-widget-simpleajaxuploader/assets';
     public $css = [];
     public $js = [
         'SimpleAjaxUploader.min.js'

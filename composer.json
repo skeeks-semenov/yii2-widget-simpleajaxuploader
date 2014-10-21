@@ -1,9 +1,13 @@
 {
-    "name": "skeeks/yii2-widget-simpleajaxloader",
+    "name": "skeeks/yii2-widget-simpleajaxuploader",
     "description": "Javascript plugin for cross-browser Ajax file uploading with progress bar support. Works in all major browsers, including IE7+, Chrome, Firefox, Safari, and Opera. No dependencies - use it with or without jQuery.",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","skeeks","widget","uploader","loader","simpleajaxloader"],
+    "keywords": ["yii2","extension","skeeks","widget","uploader","uploader","simpleajaxuploader"],
     "license": "MIT",
+    "support": {
+        "issues": "http://www.skeeks.com/",
+        "source": "http://git.skeeks.com/skeeks/yii2-widget-simpleajaxuploader"
+    },
     "authors": [
         {
             "name": "Semenov Alexander",
@@ -15,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "skeeks\\widget\\simpleajaxloader\\": ""
+            "skeeks\\widget\\simpleajaxuploader\\": ""
         }
     }
 }
