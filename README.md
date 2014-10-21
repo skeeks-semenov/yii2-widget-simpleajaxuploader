@@ -6,7 +6,7 @@ Installation
 ------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
+Full api https://www.lpology.com/code/ajaxuploader/docs.php
 Either run
 
 ```
