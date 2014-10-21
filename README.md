@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist skeeks/yii2-widget-simpleajaxuploader "*"
+php composer.phar require --prefer-dist skeeks/yii2-widget-simpleajaxloader "*"
 ```
 
 or add
 
 ```
-"skeeks/yii2-widget-simpleajaxuploader": "*"
+"skeeks/yii2-widget-simpleajaxloader": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -27,5 +27,16 @@ Usage
 
 Once the extension is installed, simply use it in your code by :
 
-```php
-<?= \skeeks\widget\simpleajaxuploader\AutoloadExample::widget(); ?>```
+```
+<?php
+namespace bla\bla;
+use skeeks\widget\simpleajaxuploader\Widget;
+
+echo Widget::widget({
+      "clientOptions" =>
+      [
+          "name" => ""
+      ]
+ });
+?>
+```
