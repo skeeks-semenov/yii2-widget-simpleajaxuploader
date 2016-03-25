@@ -78,7 +78,7 @@ class FileUploadPOSTForm {
 class FileUpload {
   public $uploadDir;                    // File upload directory (include trailing slash)
   public $allowedExtensions;            // Array of permitted file extensions
-  public $sizeLimit = 10485760;         // Max file upload size in bytes (default 10MB)
+  public $sizeLimit = 10485760000;      // Max file upload size in bytes (default 10GB)
   public $newFileName;                  // Optionally save uploaded files with a new name by setting this
   public $corsInputName = 'XHR_CORS_TARGETORIGIN';
   private $fileName;                    // Filename of the uploaded file
