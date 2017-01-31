@@ -10,13 +10,13 @@ Full api https://www.lpology.com/code/ajaxuploader/docs.php
 Either run
 
 ```
-php composer.phar require --prefer-dist skeeks/yii2-widget-simpleajaxloader "*"
+php composer.phar require --prefer-dist skeeks/yii2-widget-simpleajaxuploader "*"
 ```
 
 or add
 
 ```
-"skeeks/yii2-widget-simpleajaxloader": "*"
+"skeeks/yii2-widget-simpleajaxuploader": "*"
 ```
 
 to the require section of your `composer.json` file.
